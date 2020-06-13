@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>SignatureDoesNotMatch</Code><Message>The request signature we calculated does not match the signature you provided. Check your key and signing method.</Message><AWSAccessKeyId>AKIAJK3YUAPXTSIZJUQQ</AWSAccessKeyId><StringToSign>AWS4-HMAC-SHA256
+20200613T102732Z
+20200613/us-east-1/s3/aws4_request
+19669c8bb37e5c2ae5a71c51e45b2de1d686d9e1dbac74e0006f7cb6cd390808</StringToSign><SignatureProvided>6f8a5a3a84a0a033f07571346376c270d29d15e133c603bc36a6008b4cad350b</SignatureProvided><StringToSignBytes>41 57 53 34 2d 48 4d 41 43 2d 53 48 41 32 35 36 0a 32 30 32 30 30 36 31 33 54 31 30 32 37 33 32 5a 0a 32 30 32 30 30 36 31 33 2f 75 73 2d 65 61 73 74 2d 31 2f 73 33 2f 61 77 73 34 5f 72 65 71 75 65 73 74 0a 31 39 36 36 39 63 38 62 62 33 37 65 35 63 32 61 65 35 61 37 31 63 35 31 65 34 35 62 32 64 65 31 64 36 38 36 64 39 65 31 64 62 61 63 37 34 65 30 30 30 36 66 37 63 62 36 63 64 33 39 30 38 30 38</StringToSignBytes><CanonicalRequest>GET
+/sada
+
+host:childprofileimage.s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20200613T102732Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</CanonicalRequest><CanonicalRequestBytes>47 45 54 0a 2f 73 61 64 61 0a 0a 68 6f 73 74 3a 63 68 69 6c 64 70 72 6f 66 69 6c 65 69 6d 61 67 65 2e 73 33 2e 61 6d 61 7a 6f 6e 61 77 73 2e 63 6f 6d 0a 78 2d 61 6d 7a 2d 63 6f 6e 74 65 6e 74 2d 73 68 61 32 35 36 3a 65 33 62 30 63 34 34 32 39 38 66 63 31 63 31 34 39 61 66 62 66 34 63 38 39 39 36 66 62 39 32 34 32 37 61 65 34 31 65 34 36 34 39 62 39 33 34 63 61 34 39 35 39 39 31 62 37 38 35 32 62 38 35 35 0a 78 2d 61 6d 7a 2d 64 61 74 65 3a 32 30 32 30 30 36 31 33 54 31 30 32 37 33 32 5a 0a 0a 68 6f 73 74 3b 78 2d 61 6d 7a 2d 63 6f 6e 74 65 6e 74 2d 73 68 61 32 35 36 3b 78 2d 61 6d 7a 2d 64 61 74 65 0a 65 33 62 30 63 34 34 32 39 38 66 63 31 63 31 34 39 61 66 62 66 34 63 38 39 39 36 66 62 39 32 34 32 37 61 65 34 31 65 34 36 34 39 62 39 33 34 63 61 34 39 35 39 39 31 62 37 38 35 32 62 38 35 35</CanonicalRequestBytes><RequestId>DBCC40984B322386</RequestId><HostId>twCQqDoOdI8nurj6tj+Xj5ekf2LFHlGmSZXzWZ4IzQ/Ys7aesLd5aqbI1xfyaT7bUjr/dylCQEQ=</HostId></Error>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>SignatureDoesNotMatch</Code><Message>The request signature we calculated does not match the signature you provided. Check your key and signing method.</Message><AWSAccessKeyId>AKIAJK3YUAPXTSIZJUQQ</AWSAccessKeyId><StringToSign>AWS4-HMAC-SHA256
+20200613T105349Z
+20200613/us-east-1/s3/aws4_request
+42742fb8a1b36b28a464598db4af6a7382afd7e6cc7cced779434d322be43605</StringToSign><SignatureProvided>25cc7bbd107173f7c673924009607e177015cf3f6eba1ffe91373f6b1ecc9aa0</SignatureProvided><StringToSignBytes>41 57 53 34 2d 48 4d 41 43 2d 53 48 41 32 35 36 0a 32 30 32 30 30 36 31 33 54 31 30 35 33 34 39 5a 0a 32 30 32 30 30 36 31 33 2f 75 73 2d 65 61 73 74 2d 31 2f 73 33 2f 61 77 73 34 5f 72 65 71 75 65 73 74 0a 34 32 37 34 32 66 62 38 61 31 62 33 36 62 32 38 61 34 36 34 35 39 38 64 62 34 61 66 36 61 37 33 38 32 61 66 64 37 65 36 63 63 37 63 63 65 64 37 37 39 34 33 34 64 33 32 32 62 65 34 33 36 30 35</StringToSignBytes><CanonicalRequest>GET
+/asdasd_1592045629
+
+host:childprofileimage.s3.amazonaws.com
+x-amz-content-sha256:e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+x-amz-date:20200613T105349Z
+
+host;x-amz-content-sha256;x-amz-date
+e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855</CanonicalRequest><CanonicalRequestBytes>47 45 54 0a 2f 61 73 64 61 73 64 5f 31 35 39 32 30 34 35 36 32 39 0a 0a 68 6f 73 74 3a 63 68 69 6c 64 70 72 6f 66 69 6c 65 69 6d 61 67 65 2e 73 33 2e 61 6d 61 7a 6f 6e 61 77 73 2e 63 6f 6d 0a 78 2d 61 6d 7a 2d 63 6f 6e 74 65 6e 74 2d 73 68 61 32 35 36 3a 65 33 62 30 63 34 34 32 39 38 66 63 31 63 31 34 39 61 66 62 66 34 63 38 39 39 36 66 62 39 32 34 32 37 61 65 34 31 65 34 36 34 39 62 39 33 34 63 61 34 39 35 39 39 31 62 37 38 35 32 62 38 35 35 0a 78 2d 61 6d 7a 2d 64 61 74 65 3a 32 30 32 30 30 36 31 33 54 31 30 35 33 34 39 5a 0a 0a 68 6f 73 74 3b 78 2d 61 6d 7a 2d 63 6f 6e 74 65 6e 74 2d 73 68 61 32 35 36 3b 78 2d 61 6d 7a 2d 64 61 74 65 0a 65 33 62 30 63 34 34 32 39 38 66 63 31 63 31 34 39 61 66 62 66 34 63 38 39 39 36 66 62 39 32 34 32 37 61 65 34 31 65 34 36 34 39 62 39 33 34 63 61 34 39 35 39 39 31 62 37 38 35 32 62 38 35 35</CanonicalRequestBytes><RequestId>94109A7B412DEF49</RequestId><HostId>IlTI/V/kajdOFyy+Veau6S5aDuniy8AMZoU7mRUHiNjtA6Sq3dJwvwUNd/g9zbMMTTxaI0n2/PQ=</HostId></Error>

@@ -16,8 +16,8 @@ $config = [
         's3' => [
             'class' => 'frostealth\yii2\aws\s3\Service',
             'credentials' => [
-                'key' => 'AKIAJBAHWUZIYQXTZ6MQ',
-                'secret' => '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',
+                'key' => '',
+                'secret' => '',
             ],
             'region' => 'us-east-1',
             'defaultBucket' => 'childprofileimage',
